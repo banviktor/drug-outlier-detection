@@ -1,0 +1,1162 @@
+lepirudin 0:1
+cetuximab 1:1 2:1 3:1 4:1 5:1 6:1 7:1 8:1 9:1 10:1 11:1 12:1
+denileukin_diftitox 13:1 14:1 15:1
+etanercept 11:1 6:1 7:1 8:1 9:1 16:1 17:1 12:1 10:1 1:1 2:1 3:1 18:1 5:1
+bivalirudin 19:1
+peginterferon_alfa-2a 20:1 21:1
+alteplase 22:1 23:1 24:1 25:1
+sermorelin 26:1
+interferon_alfa-n1 20:1 21:1
+darbepoetin_alfa 27:1
+urokinase 28:1 22:1 24:1 29:1 30:1 25:1 31:1 32:1 33:1 34:1
+goserelin 35:1 36:1
+reteplase 22:1 23:1 24:1 25:1
+pegfilgrastim 37:1 38:1
+sargramostim 39:1 40:1 41:1 42:1 43:1
+secretin 44:1
+peginterferon_alfa-2b 21:1 20:1
+anakinra 45:1
+anistreplase 22:1 23:1 24:1 25:1
+tenecteplase 46:1 47:1 22:1 23:1 24:1 25:1 31:1 48:1 49:1 50:1 51:1
+desmopressin 52:1 53:1 54:1
+oprelvekin 55:1
+palifermin 56:1 57:1 58:1 59:1 60:1 61:1
+aldesleukin 14:1 13:1 15:1
+omalizumab 62:1 63:1
+lutropin_alfa 35:1
+insulin_lispro 64:1 65:1
+insulin_glargine 64:1 65:1
+collagenase 66:1 67:1 68:1 69:1
+cetrorelix 36:1 35:1
+adalimumab 1:1 2:1 3:1 16:1 5:1 6:1 7:1 8:1 9:1 10:1 11:1 12:1
+abciximab 12:1 1:1 2:1 3:1 70:1 71:1 72:1 5:1 6:1 7:1 8:1 9:1 10:1 11:1
+interferon_beta-1a 21:1 20:1
+eptifibatide 71:1
+infliximab 16:1
+follitropin_beta 73:1
+vasopressin 52:1 53:1 54:1
+interferon_beta-1b 21:1 20:1
+interferon_alfacon-1 21:1 20:1
+hyaluronidase 74:1
+trastuzumab 2:1 3:1 5:1 10:1 75:1 4:1 6:1 7:1 8:1 9:1 11:1 12:1 1:1
+rituximab 1:1 2:1 3:1 76:1 5:1 6:1 7:1 8:1 9:1 10:1 11:1 12:1
+basiliximab 6:1 7:1 8:1 9:1 13:1 14:1 12:1 10:1 1:1 2:1 3:1 5:1 11:1
+pegvisomant 77:1
+streptokinase 22:1 78:1
+alemtuzumab 2:1 3:1 79:1 5:1 6:1 7:1 8:1 9:1 10:1 12:1 1:1
+alefacept 3:1 5:1 80:1 6:1 7:1 8:1 9:1 10:1 12:1 1:1 2:1
+urofollitropin 73:1
+efalizumab 2:1 3:1 81:1 5:1 6:1 7:1 8:1 9:1 10:1 12:1 1:1
+choriogonadotropin_alfa 35:1 73:1
+filgrastim 37:1 38:1
+coagulation_factor_ix 82:1 83:1 84:1 85:1 19:1 47:1 86:1
+becaplermin 87:1 88:1 89:1
+octreotide 90:1 91:1 92:1
+abarelix 36:1
+oxytocin 93:1 94:1
+natalizumab 2:1 3:1 95:1 96:1 5:1 6:1 7:1 8:1 9:1 10:1 12:1 1:1
+enfuvirtide 97:1
+palivizumab 2:1 3:1 98:1 5:1 6:1 7:1 8:1 9:1 10:1 12:1 1:1
+daclizumab 1:1 2:1 3:1 13:1 14:1 5:1 6:1 7:1 8:1 9:1 10:1 12:1
+bevacizumab 2:1 3:1 99:1 5:1 6:1 7:1 8:1 9:1 10:1 12:1 1:1
+pyridoxal_phosphate 100:1 101:1 102:1 103:1 104:1 105:1 106:1 107:1 108:1 109:1 110:1 111:1 112:1 113:1 114:1 115:1 116:1 117:1 118:1 119:1 120:1 121:1 122:1 123:1 124:1 125:1 126:1 127:1 128:1 129:1 130:1 131:1 132:1 133:1 134:1 135:1 136:1 137:1 138:1 139:1 140:1 141:1 142:1 143:1 144:1 145:1 146:1 147:1 148:1 149:1 150:1 151:1 152:1 153:1 154:1 155:1 156:1 157:1 158:1 159:1 160:1 161:1 162:1 163:1 164:1 165:1 166:1 167:1 168:1 169:1 170:1 171:1 172:1 173:1
+cyanocobalamin 174:1 175:1 176:1 177:1 178:1 179:1
+biotin 180:1 181:1 182:1 183:1 184:1 185:1 186:1 187:1 188:1
+calcitriol 189:1
+glutathione 190:1 191:1 192:1 193:1 194:1 195:1 196:1 197:1 198:1 199:1 200:1 201:1 202:1 203:1 204:1 205:1 206:1 207:1 208:1 209:1 210:1 211:1 212:1 213:1 214:1 215:1 216:1 217:1 218:1 219:1 220:1 221:1 222:1 223:1 224:1 225:1 226:1 227:1 228:1 229:1
+glycine 230:1 136:1 141:1 142:1 231:1 232:1 157:1 233:1 234:1 110:1 114:1 235:1 236:1 237:1 238:1 115:1 239:1 240:1 119:1 241:1 154:1 118:1 242:1 243:1 244:1 133:1 245:1 246:1 247:1 248:1 249:1 250:1 251:1 206:1
+ergocalciferol 189:1
+folic_acid 252:1 253:1
+menadione 254:1 255:1 256:1 257:1 86:1 258:1 259:1 19:1 84:1 260:1 82:1 261:1 262:1
+pravastatin 263:1
+fluvoxamine 264:1
+valsartan 265:1
+ramipril 266:1
+masoprocol 267:1
+flunisolide 268:1
+baclofen 269:1 270:1
+pentagastrin 271:1
+nicotine 272:1 273:1 274:1 275:1 276:1 277:1 278:1 279:1 280:1 281:1 282:1
+cevimeline 283:1 284:1
+lorazepam 285:1 286:1 287:1 288:1 289:1 290:1 291:1 292:1 293:1 294:1 295:1 296:1 297:1 298:1 299:1 300:1 301:1 302:1 303:1 304:1
+esmolol 305:1
+bortezomib 306:1 307:1 308:1 309:1 310:1
+ethchlorvynol 295:1 302:1 297:1 303:1 298:1 304:1 299:1 300:1 301:1
+phentermine 311:1 264:1 312:1 313:1 314:1
+tramadol 315:1 311:1 264:1 316:1 317:1 318:1 319:1 320:1 283:1
+vidarabine 321:1 322:1 323:1
+betaxolol 305:1 324:1
+fluconazole 325:1
+troglitazone 326:1 327:1 25:1 328:1 329:1 330:1
+oseltamivir 331:1 332:1 333:1 334:1
+erythromycin 335:1 336:1
+hydroxocobalamin 174:1 175:1 176:1 177:1 337:1 338:1 339:1 340:1 178:1
+caffeine 341:1 342:1 343:1 344:1
+sildenafil 345:1 346:1 347:1
+dofetilide 348:1 349:1 350:1
+pyrimethamine 351:1 352:1
+reserpine 353:1
+azithromycin 336:1 335:1
+ticlopidine 354:1
+trospium 284:1
+adapalene 355:1 356:1 357:1 358:1 359:1 360:1
+midodrine 361:1 362:1
+remikiren 363:1
+pantoprazole 364:1
+torasemide 365:1
+citalopram 264:1
+eletriptan 366:1 367:1 368:1 369:1 370:1 371:1 372:1
+moxifloxacin 373:1 374:1 375:1
+oxyphenonium 284:1
+nelfinavir 376:1
+glimepiride 377:1 378:1 379:1
+diflorasone 268:1
+indinavir 376:1
+lovastatin 263:1 81:1 380:1
+enflurane 381:1 295:1 382:1 240:1 383:1 384:1 385:1 386:1
+cefotiam 387:1
+pregabalin 388:1
+temazepam 285:1 286:1 287:1 288:1 289:1 290:1 291:1 292:1 293:1 294:1 295:1 296:1 297:1 298:1 299:1 300:1 301:1 302:1 303:1 304:1
+methyclothiazide 365:1 389:1 390:1 391:1
+aminosalicylic_acid 392:1 393:1 267:1 394:1 395:1
+reboxetine 311:1
+milrinone 396:1
+nevirapine 397:1
+oxiconazole 325:1 398:1
+alclometasone 268:1
+cladribine 399:1 400:1 401:1 402:1 403:1 404:1 405:1 406:1 407:1
+ranolazine 408:1 409:1
+mesalazine 392:1 410:1 267:1 326:1 393:1 411:1 412:1 413:1
+benzatropine 284:1 312:1 414:1
+ziprasidone 370:1 316:1 415:1 416:1 372:1 414:1 361:1 362:1 417:1 418:1 419:1 420:1 284:1 421:1 283:1 422:1 423:1 424:1 425:1 426:1 427:1 428:1 369:1 367:1 366:1
+methysergide 371:1 316:1 424:1 369:1 372:1
+cabergoline 420:1 426:1 425:1 367:1 316:1 372:1 419:1 371:1 427:1 424:1 418:1 366:1 428:1 417:1 369:1
+idoxuridine 323:1
+dapsone 429:1 430:1
+terconazole 325:1
+phenytoin 408:1 431:1
+medrysone 268:1
+doxycycline 432:1 433:1
+diethylstilbestrol 434:1 329:1 435:1
+lymecycline 432:1 433:1
+clotrimazole 325:1 436:1
+sulfanilamide 437:1
+cycloserine 438:1 439:1
+anagrelide 396:1
+carmustine 205:1
+metoprolol 305:1 324:1
+cefmenoxime 387:1 440:1
+ropinirole 424:1 316:1 417:1 418:1 420:1 427:1 419:1 428:1 369:1 366:1 371:1 425:1 426:1 367:1
+chlorotrianisene 434:1
+isradipine 441:1 442:1 443:1 444:1 445:1 446:1 447:1
+betazole 448:1
+topiramate 295:1 431:1 449:1 390:1 391:1
+cefmetazole 450:1 451:1 452:1 440:1 453:1 454:1
+amsacrine 375:1 348:1
+theophylline 341:1 342:1 455:1 343:1 345:1 456:1 396:1
+argatroban 19:1
+disopyramide 408:1 284:1 421:1 283:1 457:1 458:1
+lidocaine 459:1 409:1 408:1 4:1
+clemastine 414:1
+acarbose 460:1 461:1 462:1 463:1
+venlafaxine 264:1 311:1 312:1
+conjugated_estrogens 434:1
+travoprost 464:1
+amcinonide 268:1 465:1
+atomoxetine 311:1 264:1
+bleomycin 466:1 467:1
+etomidate 295:1 418:1
+raltitrexed 468:1 469:1
+etonogestrel 470:1 434:1
+morphine 315:1 317:1 318:1
+ropivacaine 459:1
+bupivacaine 459:1 471:1
+dapiprazole 361:1 472:1 362:1
+penciclovir 473:1 474:1
+flucloxacillin 387:1
+tranexamic_acid 22:1
+ertapenem 475:1 476:1 477:1 440:1 478:1 451:1 452:1 454:1
+desogestrel 470:1 434:1
+talbutal 479:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+bexarotene 360:1 358:1 357:1
+ibutilide 377:1 441:1 481:1 348:1 442:1 482:1 483:1 484:1 485:1 486:1
+vindesine 487:1
+pentobarbital 479:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+valproic_acid 101:1 488:1 489:1
+zolmitriptan 367:1 366:1 368:1 369:1
+gefitinib 4:1
+codeine 315:1 317:1 318:1
+piperacillin 490:1 491:1 492:1 493:1
+dihydroergotamine 366:1 367:1 417:1 371:1
+amitriptyline 472:1 417:1 414:1 284:1 421:1 283:1 422:1 423:1 494:1 383:1 311:1 457:1 458:1 264:1 424:1 369:1 318:1 317:1 495:1 496:1 361:1
+tolcapone 497:1
+fluorometholone 268:1
+nitroprusside 498:1
+hydromorphone 315:1 318:1 317:1
+ethambutol 499:1 500:1 501:1
+metformin 502:1
+ipratropium_bromide 284:1 421:1 283:1
+methadone 315:1 319:1 282:1 318:1
+olanzapine 370:1 316:1 415:1 416:1 372:1 414:1 361:1 362:1 417:1 418:1 424:1 420:1 284:1 421:1 283:1 422:1 423:1 419:1 425:1 426:1 427:1 428:1 369:1 367:1 366:1
+atenolol 305:1
+pimecrolimus 503:1 504:1
+omeprazole 364:1
+pyrazinamide 505:1
+metixene 284:1 422:1 423:1 421:1 283:1
+cetirizine 414:1
+terfenadine 414:1 348:1 283:1
+diltiazem 482:1
+protriptyline 311:1 264:1
+alfuzosin 361:1 362:1 472:1
+trimethadione 506:1
+nitisinone 507:1
+clobazam 285:1 286:1 287:1 288:1 289:1 290:1 291:1 292:1 293:1 294:1 295:1 297:1 298:1 299:1 300:1 301:1 302:1 303:1 304:1
+minoxidil 378:1 410:1
+megestrol 470:1 268:1
+buclizine 414:1 284:1
+aztreonam 508:1 509:1
+chlorzoxazone 381:1
+aminoglutethimide 510:1 511:1
+mefloquine 512:1 342:1
+sulfadiazine 513:1
+vinorelbine 514:1
+anidulafungin 515:1
+clozapine 316:1 415:1 416:1 372:1 414:1 516:1 361:1 362:1 417:1 418:1 419:1 420:1 284:1 421:1 283:1 422:1 423:1 517:1 424:1 425:1 427:1 428:1 369:1 367:1 366:1 370:1
+sucralfate 518:1 519:1 520:1 23:1 521:1 522:1
+grepafloxacin 374:1 373:1
+doxylamine 414:1 284:1
+levonorgestrel 470:1 523:1 434:1 524:1
+norepinephrine 525:1 361:1 362:1 472:1 417:1 418:1 420:1 305:1 324:1 526:1
+cidofovir 527:1
+mirtazapine 424:1 415:1 417:1 316:1 317:1 414:1
+meprobamate 295:1 297:1 298:1 299:1 300:1 301:1
+thiethylperazine 419:1 425:1 428:1
+timolol 305:1 324:1 528:1
+treprostinil 529:1 530:1 354:1
+trihexyphenidyl 284:1 421:1 283:1 422:1 423:1
+palonosetron 415:1
+dydrogesterone 470:1
+mexiletine 408:1 531:1
+dexrazoxane 375:1 532:1
+amlodipine 441:1 442:1 443:1 446:1 447:1 533:1 534:1 535:1 389:1
+tacrine 536:1 537:1
+oxyphencyclimine 283:1 284:1 421:1
+triamterene 538:1 539:1 540:1 541:1
+valrubicin 375:1
+procyclidine 284:1 421:1 422:1 283:1
+phenylephrine 361:1 362:1 472:1
+carbimazole 542:1
+digoxin 543:1
+sulpiride 419:1 427:1
+nimodipine 531:1 441:1 446:1 544:1 447:1 481:1 443:1 545:1 546:1 547:1
+progesterone 470:1 434:1 547:1 548:1
+phenylpropanolamine 361:1 417:1 425:1 305:1
+sorafenib 549:1 550:1 551:1 552:1 553:1 87:1 554:1
+griseofulvin 555:1 556:1 557:1
+nisoldipine 441:1 442:1 443:1 446:1 447:1
+eszopiclone 295:1 297:1 298:1 300:1 296:1
+ceruletide 558:1
+alprazolam 285:1 286:1 287:1 288:1 289:1 290:1 291:1 292:1 294:1 293:1 295:1 296:1 297:1 298:1 299:1 300:1 301:1 302:1 303:1 304:1
+dexbrompheniramine 414:1
+loxapine 419:1 425:1 424:1 316:1
+remoxipride 419:1 428:1 427:1 424:1 559:1
+mupirocin 560:1
+carbachol 284:1 421:1 277:1
+rosiglitazone 326:1 327:1
+pramipexole 371:1 316:1 420:1 425:1 426:1 427:1 419:1 428:1 418:1 369:1 366:1 417:1 367:1 424:1
+acetohexamide 378:1
+ampicillin 492:1 493:1 490:1 561:1 491:1
+secobarbital 479:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+miglustat 562:1
+promazine 362:1 423:1 361:1 414:1 472:1 419:1 424:1 316:1 425:1 428:1 422:1 421:1 283:1 284:1
+spironolactone 547:1 524:1
+methylphenidate 312:1 311:1 264:1
+methocarbamol 389:1
+hyoscyamine 284:1 421:1 283:1 422:1
+zolpidem 295:1 297:1 298:1
+famciclovir 473:1 563:1
+triprolidine 414:1
+streptozocin 564:1
+cefpiramide 440:1 452:1 565:1 566:1 454:1 451:1 450:1
+lindane 302:1 240:1 243:1 242:1 241:1
+trifluridine 468:1
+prochlorperazine 419:1
+cyproheptadine 414:1 424:1 316:1 284:1 421:1 283:1
+nitric_oxide 567:1
+bendroflumethiazide 568:1 381:1 389:1 390:1 391:1
+allopurinol 569:1
+ceftazidime 440:1 490:1 451:1 561:1 452:1 566:1 570:1 476:1 571:1
+cerivastatin 263:1
+trimethoprim 468:1 351:1
+gemcitabine 400:1 468:1 572:1
+betamethasone 268:1
+teniposide 375:1
+epirubicin 573:1 375:1
+chloramphenicol 574:1 575:1 576:1
+loracarbef 490:1 387:1
+lansoprazole 364:1
+droperidol 419:1 361:1
+framycetin 577:1 578:1
+clomocycline 433:1 432:1
+loratadine 414:1
+cefalotin 579:1 561:1 493:1 490:1 492:1 491:1 387:1 580:1
+prazosin 361:1 362:1 472:1 348:1 485:1 486:1
+imipramine 422:1 423:1 457:1 458:1 581:1 311:1 264:1 424:1 414:1 361:1 472:1 284:1 421:1 283:1
+acitretin 360:1 359:1 356:1 355:1 358:1 357:1 582:1
+nabumetone 392:1 410:1
+methylscopolamine 284:1 421:1 283:1
+metharbital 479:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+sodium_tetradecyl_sulfate 261:1 262:1
+ketorolac 392:1 410:1
+enoxacin 374:1 373:1 375:1
+quinine 583:1 436:1
+tenoxicam 392:1 410:1
+dronabinol 584:1 585:1
+montelukast 586:1 267:1
+fluoxetine 264:1 424:1
+methohexital 295:1
+chlordiazepoxide 285:1 286:1 287:1 288:1 289:1 290:1 291:1 292:1 293:1 294:1 295:1 297:1 298:1 299:1 300:1 301:1 302:1 303:1 304:1
+duloxetine 264:1 311:1 312:1
+chlorpromazine 419:1 425:1 424:1 369:1 361:1 362:1 414:1
+rimantadine 587:1
+amikacin 577:1
+lenalidomide 588:1 589:1 590:1 392:1
+raloxifene 434:1 435:1
+celecoxib 392:1 591:1
+brimonidine 417:1 418:1 420:1
+dicloxacillin 592:1 593:1 493:1 492:1 490:1 561:1 491:1
+nabilone 585:1 584:1
+pefloxacin 373:1 374:1 375:1
+sotalol 348:1 305:1 324:1
+buspirone 369:1 419:1
+miglitol 460:1 462:1 594:1 595:1
+fosinopril 266:1
+cefotaxime 493:1 492:1 508:1 561:1 491:1
+entacapone 497:1
+zidovudine 397:1
+darifenacin 283:1 284:1 421:1 422:1 423:1
+oxycodone 315:1 317:1 318:1
+phenindione 258:1
+flutamide 524:1 531:1
+tolmetin 392:1 410:1
+cimetidine 448:1
+haloperidol 419:1 425:1 596:1 424:1 427:1
+ritonavir 376:1
+tridihexethyl 283:1 284:1 421:1
+nitazoxanide 597:1
+triflupromazine 425:1 419:1 371:1 284:1 421:1
+dextrothyroxine 598:1 599:1 542:1
+acetyldigitoxin 543:1
+vancomycin 600:1
+aminocaproic_acid 22:1 30:1 601:1
+dextromethorphan 559:1 602:1 319:1 277:1 264:1
+albendazole 603:1 604:1 605:1
+trandolapril 266:1
+caspofungin 515:1
+carteolol 324:1 305:1
+bentiromide 606:1
+alitretinoin 359:1 360:1 356:1 358:1 355:1 357:1
+metolazone 568:1
+tolnaftate 607:1
+lercanidipine 482:1
+foscarnet 527:1 473:1
+erlotinib 4:1 608:1
+mephenytoin 408:1
+rofecoxib 392:1 609:1
+cefdinir 610:1 611:1 412:1
+ciprofloxacin 373:1 374:1 375:1
+toremifene 434:1
+nortriptyline 283:1 422:1 423:1 311:1 264:1 424:1 369:1 414:1 361:1 472:1 284:1 421:1
+vincristine 514:1 612:1
+benazepril 266:1
+amoxapine 311:1 264:1 419:1 425:1 417:1 361:1 284:1 295:1
+fluorouracil 468:1
+pyridostigmine 536:1 537:1
+adinazolam 304:1 288:1 289:1 290:1 291:1 292:1 293:1 295:1 297:1 298:1 300:1 285:1 286:1 287:1 302:1 303:1
+desoximetasone 268:1
+azelaic_acid 613:1 614:1 615:1 616:1 617:1
+zafirlukast 586:1
+propylthiouracil 542:1
+acetohydroxamic_acid 618:1 619:1
+pentostatin 620:1
+piroxicam 392:1 410:1
+lamotrigine 621:1
+hydroxyzine 414:1
+zanamivir 622:1 623:1 334:1
+bosentan 624:1 625:1
+tigecycline 432:1 577:1 626:1 627:1 628:1
+doxapram 629:1 630:1
+methotrexate 351:1
+carbamazepine 408:1
+cinnarizine 414:1 441:1 446:1 544:1 447:1 506:1 444:1 631:1 419:1
+vinblastine 603:1 514:1 632:1 633:1 634:1 635:1
+propranolol 305:1 324:1 526:1 369:1 367:1
+atropine 284:1 421:1 283:1 422:1 423:1
+fenoprofen 392:1 410:1
+fenfluramine 264:1 371:1 316:1
+clonidine 417:1 418:1 420:1
+sulfamethizole 437:1
+valaciclovir 473:1 323:1
+mazindol 311:1 312:1 264:1
+valdecoxib 392:1
+lactulose 636:1
+voriconazole 325:1
+enalapril 266:1
+nizatidine 448:1
+diclofenac 392:1 410:1 267:1 637:1 638:1 494:1 639:1 640:1
+lisuride 316:1 367:1 417:1 418:1 420:1 419:1 427:1 428:1 425:1 426:1 369:1 366:1 371:1 424:1
+doxazosin 361:1 362:1 472:1 348:1 485:1 486:1
+fluocinolone_acetonide 268:1
+piperazine 304:1
+ethosuximide 506:1
+amiloride 539:1 540:1 538:1 541:1 641:1 642:1 638:1 643:1 29:1
+oxytetracycline 432:1 433:1
+labetalol 305:1 324:1 361:1 362:1
+thiopental 479:1 644:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+monobenzone 616:1
+ivermectin 242:1 304:1
+medroxyprogesterone 470:1 434:1
+cisapride 645:1 415:1 424:1 348:1
+sulindac 392:1 410:1 646:1 647:1 530:1 648:1
+cyclothiazide 649:1 389:1 390:1 391:1
+chloroquine 225:1 16:1 650:1
+ethionamide 651:1 652:1
+metaraminol 361:1
+butorphanol 317:1 318:1 315:1
+bisoprolol 305:1 324:1
+amodiaquine 653:1
+rifabutin 654:1 655:1 656:1 657:1 658:1
+paramethadione 631:1
+demeclocycline 432:1 433:1
+imatinib 659:1 554:1 660:1 495:1 661:1 88:1 662:1 663:1 87:1
+triamcinolone 268:1
+oxandrolone 524:1
+nicardipine 284:1 421:1 283:1 422:1 423:1 664:1 441:1 443:1 446:1 442:1 665:1 666:1 361:1 362:1 472:1
+fluphenazine 419:1 425:1 664:1
+testosterone 524:1
+efavirenz 397:1
+bacitracin 667:1 89:1
+clofarabine 403:1 400:1
+docosanol 668:1 669:1
+dexmedetomidine 417:1
+sulfacetamide 437:1 670:1 671:1
+prednisone 268:1
+clofibrate 672:1
+astemizole 414:1 348:1
+adenosine 342:1 455:1 673:1 341:1
+simvastatin 263:1 674:1
+pemetrexed 468:1 675:1 351:1 676:1
+mebendazole 603:1 604:1
+gonadorelin 36:1 677:1
+dyclonine 459:1
+mitotane 678:1 679:1
+stavudine 397:1
+pentazocine 315:1 317:1 559:1
+magnesium_sulfate 482:1 442:1 441:1 481:1 443:1 447:1
+latanoprost 464:1
+estrone 434:1
+trazodone 424:1 316:1 264:1 369:1 414:1 361:1 417:1
+mecamylamine 277:1
+acamprosate 319:1 680:1 681:1 682:1 683:1
+verapamil 506:1 533:1 388:1 348:1 408:1 377:1 264:1 441:1 446:1 544:1 447:1 481:1 443:1 545:1 546:1 631:1
+nilutamide 524:1
+nafarelin 36:1 677:1
+histamine_phosphate 414:1 448:1 684:1 516:1
+epinephrine 361:1 362:1 305:1 324:1 417:1 418:1 472:1 525:1
+sumatriptan 366:1 367:1 368:1 369:1
+pirenzepine 284:1
+cefixime 475:1
+chlorpropamide 379:1
+aprepitant 685:1
+galantamine 279:1 280:1 275:1 281:1 282:1 276:1 272:1 273:1 537:1 536:1 686:1 687:1 688:1 689:1 690:1 277:1 278:1 274:1
+tamoxifen 434:1 435:1
+losartan 265:1
+thioridazine 419:1 425:1 361:1 362:1 424:1 348:1
+warfarin 258:1
+midazolam 285:1 286:1 287:1 288:1 289:1 290:1 291:1 292:1 293:1 294:1 295:1 297:1 298:1 299:1 300:1 302:1 304:1 303:1 301:1
+tobramycin 577:1
+trovafloxacin 374:1 373:1 375:1
+fludrocortisone 547:1 268:1 524:1
+flurazepam 285:1 286:1 287:1 288:1 289:1 290:1 291:1 292:1 293:1 294:1 295:1 297:1 298:1 299:1 300:1 301:1 302:1 303:1 304:1
+moexipril 266:1 691:1
+phentolamine 417:1 361:1
+fluorescein 692:1
+daunorubicin 375:1 532:1
+furosemide 365:1 390:1
+ergotamine 311:1 366:1 367:1 424:1 419:1 361:1 362:1 472:1 417:1 418:1
+tizanidine 417:1 418:1 420:1 693:1
+nitrofurantoin 694:1 695:1 696:1
+nicergoline 361:1
+eplerenone 547:1
+amprenavir 376:1
+methazolamide 389:1 390:1 391:1 697:1
+naltrexone 318:1 315:1 317:1 602:1
+delavirdine 397:1
+tamsulosin 361:1 472:1 362:1
+sufentanil 315:1 318:1 317:1
+lamivudine 397:1 698:1
+diethylcarbamazine 267:1 410:1
+flurbiprofen 410:1 392:1
+oxacillin 490:1 492:1 561:1 491:1 493:1 387:1
+apomorphine 371:1 417:1 425:1 366:1 367:1 517:1 427:1 428:1 419:1 420:1 418:1 316:1 426:1 369:1 424:1
+paroxetine 264:1 311:1 424:1 284:1 421:1 283:1 422:1 423:1
+nedocromil 586:1 699:1 700:1 701:1 657:1
+adefovir_dipivoxil 702:1
+azatadine 414:1
+procaine 459:1 319:1 415:1 312:1 277:1
+lisinopril 266:1 691:1
+methoxamine 361:1 362:1
+imiquimod 703:1 704:1
+trimipramine 418:1 414:1 264:1 311:1 312:1 424:1 369:1 361:1 362:1 419:1 425:1
+nateglinide 379:1 326:1
+atracurium 277:1
+pralidoxime 536:1 537:1
+risperidone 418:1 420:1 316:1 369:1 425:1 424:1 419:1 427:1 428:1 361:1 362:1 366:1 414:1 417:1
+naftifine 705:1
+esomeprazole 364:1
+hetacillin 492:1 493:1 490:1 561:1 491:1
+riluzole 408:1 706:1
+hydrocortisone 268:1 465:1
+modafinil 312:1 362:1
+scopolamine 284:1 463:1 421:1 283:1 422:1 423:1
+carbinoxamine 414:1
+etodolac 392:1 410:1 360:1
+prilocaine 408:1
+epinastine 414:1 448:1 361:1 417:1 424:1 372:1
+tranylcypromine 313:1 314:1
+isoflurane 295:1 384:1 240:1 382:1 383:1 385:1 664:1
+ethotoin 408:1
+tretinoin 358:1 357:1 355:1 707:1 708:1 709:1 710:1 711:1
+hexachlorophene 712:1 713:1 714:1
+dolasetron 415:1
+clopidogrel 354:1
+tetracycline 715:1 627:1 716:1 717:1 628:1 718:1
+meropenem 478:1
+potassium_chloride 719:1 365:1 720:1 721:1 722:1 723:1
+irinotecan 724:1 725:1
+mometasone 268:1
+olopatadine 414:1 726:1 727:1 728:1 729:1 730:1
+alprostadil 731:1 471:1
+malathion 537:1
+etoposide 375:1
+hydroflumethiazide 365:1 389:1 390:1 391:1 732:1 733:1 543:1 381:1
+tirofiban 72:1 71:1
+oxcarbazepine 408:1
+propiomazine 283:1 423:1 421:1 422:1 284:1 414:1 424:1 316:1 419:1 425:1 428:1 361:1 362:1 472:1
+roxithromycin 734:1 735:1
+phenelzine 313:1 314:1 736:1 101:1 116:1 159:1 168:1
+propantheline 284:1
+estradiol 434:1 435:1 608:1
+mefenamic_acid 392:1 410:1
+aciclovir 737:1 473:1 563:1
+naproxen 392:1 410:1
+perindopril 266:1
+tripelennamine 414:1
+primidone 479:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+sulfasalazine 267:1 392:1 410:1 326:1 393:1 411:1 706:1 738:1
+candesartan 265:1
+tolazoline 361:1 417:1 414:1
+gentamicin 577:1 33:1
+tazarotene 359:1 358:1 355:1 356:1
+fenoldopam 426:1 425:1 418:1 420:1 417:1
+halazepam 304:1 288:1 289:1 290:1 291:1 292:1 293:1 295:1 297:1 298:1 300:1 285:1 286:1 287:1 302:1 303:1
+alfentanil 315:1
+minaprine 313:1 371:1 424:1 316:1 536:1 264:1 425:1 419:1 284:1
+pentoxifylline 343:1 341:1 345:1 456:1 342:1 739:1
+indapamide 740:1 741:1
+tropicamide 422:1 284:1 421:1 283:1
+biperiden 284:1 277:1
+ribavirin 742:1 743:1 744:1 745:1 746:1 747:1
+phenylbutazone 392:1 748:1 410:1
+fentanyl 315:1 318:1 317:1
+meloxicam 392:1 410:1
+orciprenaline 324:1
+rosoxacin 749:1 750:1
+propofol 303:1 304:1 637:1 621:1
+acetazolamide 389:1 751:1 390:1 752:1 391:1 697:1 753:1
+tadalafil 345:1 754:1
+disulfiram 755:1 756:1
+cinoxacin 374:1
+fosfomycin 757:1
+diazepam 287:1 288:1 289:1 290:1 291:1 292:1 293:1 294:1 296:1 295:1 297:1 298:1 300:1 302:1 303:1 304:1 285:1 286:1
+trifluoperazine 419:1 517:1 361:1 664:1 758:1 759:1
+cefaclor 490:1 387:1
+mifepristone 470:1 268:1
+brompheniramine 414:1 284:1 421:1 283:1 422:1 423:1
+loperamide 315:1 318:1 317:1 388:1 760:1 664:1
+progabide 269:1 295:1
+clocortolone 268:1
+tolazamide 378:1
+dobutamine 305:1 324:1
+oxazepam 285:1 286:1 287:1 288:1 289:1 290:1 291:1 292:1 293:1 294:1 295:1 297:1 298:1 299:1 300:1 301:1 302:1 303:1 304:1
+donepezil 536:1 424:1
+nalbuphine 317:1 315:1 318:1
+clofazimine 761:1
+levamisole 278:1 762:1
+methylphenobarbital 479:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+perphenazine 419:1 425:1 664:1
+dacarbazine 763:1 764:1
+pseudoephedrine 311:1 312:1 361:1 417:1 264:1 324:1 305:1
+aminolevulinic_acid 765:1
+terbinafine 705:1
+prednisolone 268:1
+diflunisal 392:1 410:1
+vardenafil 345:1 346:1 347:1
+ranitidine 448:1
+tacrolimus 504:1
+alprenolol 305:1 324:1 369:1
+ritodrine 324:1
+benzonatate 408:1
+dorzolamide 390:1 391:1 389:1
+suprofen 410:1 392:1
+terbutaline 324:1
+conivaptan 53:1 52:1
+loteprednol 268:1
+eprosartan 265:1
+sirolimus 503:1 504:1 519:1
+emtricitabine 397:1
+chlorothiazide 568:1 389:1 390:1 391:1
+quinapril 266:1
+clomifene 434:1
+isosorbide_dinitrate 498:1
+bumetanide 365:1 719:1 723:1 720:1 766:1
+granisetron 415:1
+dienestrol 434:1
+sulfapyridine 767:1
+oxybuprocaine 459:1
+rimexolone 268:1
+triazolam 285:1 286:1 287:1 288:1 289:1 290:1 291:1 292:1 293:1 294:1 295:1 296:1 297:1 298:1 299:1 300:1 301:1 302:1 303:1 304:1
+ethanol 295:1 319:1 240:1 243:1 768:1 769:1 770:1
+remifentanil 315:1 318:1 317:1
+didanosine 397:1 399:1
+bitolterol 324:1
+methdilazine 414:1
+ondansetron 415:1 645:1 315:1 369:1 367:1
+bimatoprost 464:1 471:1 771:1 772:1
+tiagabine 773:1
+cocaine 312:1 311:1 264:1 408:1 774:1 459:1 284:1 421:1
+quinidine 408:1 483:1 484:1 348:1
+zonisamide 775:1 776:1 506:1 444:1 631:1 389:1 390:1 752:1 391:1 777:1 431:1 778:1 779:1 697:1 780:1 732:1 781:1 782:1 733:1 783:1 751:1 621:1 314:1 313:1 784:1 637:1 408:1 409:1 774:1 785:1 786:1
+paricalcitol 189:1
+repaglinide 379:1 326:1
+anileridine 315:1
+phenformin 787:1 788:1
+amantadine 587:1 319:1 419:1
+metronidazole 789:1 790:1
+dinoprostone 731:1 471:1 771:1 791:1
+almotriptan 367:1 366:1
+spectinomycin 577:1
+ketotifen 764:1 414:1 456:1 343:1 792:1 793:1 794:1 795:1 796:1 797:1
+buprenorphine 315:1 317:1 318:1
+levosimendan 758:1 377:1 788:1 396:1
+ceforanide 798:1
+cyclobenzaprine 424:1
+phenoxybenzamine 361:1 417:1 420:1 418:1 664:1 324:1
+etretinate 359:1 360:1 356:1 357:1 358:1 355:1
+famotidine 448:1
+azacitidine 799:1
+misoprostol 771:1 731:1 791:1
+tipranavir 376:1
+mesoridazine 424:1 419:1
+maprotiline 311:1 414:1 284:1 421:1 283:1 422:1 423:1 361:1
+oxymetazoline 361:1 417:1
+salmeterol 324:1
+meclofenamic_acid 410:1 392:1 267:1
+methantheline 284:1 448:1
+hexafluronium 537:1
+zalcitabine 397:1
+demecarium 536:1 537:1
+acetylsalicylic_acid 410:1 392:1 800:1
+phenprocoumon 258:1
+fulvestrant 434:1
+mezlocillin 387:1 490:1 476:1
+felbamate 596:1 319:1 249:1
+fexofenadine 414:1
+isoniazid 652:1 651:1
+naratriptan 366:1 367:1 368:1 369:1
+rizatriptan 366:1 367:1 368:1
+netilmicin 577:1
+hydrocodone 315:1 318:1
+methylprednisolone 268:1
+pindolol 305:1 324:1 369:1 367:1
+mepivacaine 459:1
+zaleplon 295:1 296:1
+bromfenac 392:1 410:1
+apraclonidine 417:1 361:1
+telmisartan 265:1 326:1
+desloratadine 414:1
+alosetron 415:1
+azelastine 414:1
+ezetimibe 801:1 802:1 803:1
+dipyridamole 804:1 620:1 345:1 456:1
+lomefloxacin 373:1 374:1 375:1
+cyclopentolate 284:1
+ramelteon 805:1 806:1
+physostigmine 536:1
+isotretinoin 359:1
+formoterol 324:1
+cytarabine 807:1
+dopamine 419:1 425:1 426:1 427:1 428:1 312:1 756:1
+rivastigmine 536:1 537:1
+exemestane 510:1
+oxaprozin 410:1 392:1
+methyl_aminolevulinate 12:1
+azathioprine 808:1
+neomycin 577:1
+auranofin 809:1 411:1
+gabapentin 442:1 445:1 533:1 341:1
+doxorubicin 375:1
+frovatriptan 366:1 367:1
+hydrochlorothiazide 568:1 389:1 390:1 391:1 732:1 733:1 381:1
+salbutamol 324:1 305:1
+levobupivacaine 459:1
+cromoglicic_acid 381:1 810:1
+ganciclovir 473:1 737:1
+letrozole 510:1
+tioconazole 325:1 811:1
+ketoprofen 410:1 392:1 812:1
+metyrapone 678:1 813:1
+cinacalcet 814:1
+clobetasol 268:1
+balsalazide 326:1 392:1 410:1 267:1
+sulfamethoxazole 437:1 815:1
+minocycline 816:1 432:1 433:1 817:1 267:1 818:1 99:1 819:1 820:1
+guanfacine 417:1
+bethanechol 421:1
+isosorbide_mononitrate 567:1
+trichlormethiazide 365:1 543:1 389:1 390:1 391:1
+felodipine 665:1 547:1 821:1 758:1 441:1 442:1 443:1 446:1 447:1 444:1 445:1 664:1 666:1
+mycophenolic_acid 742:1 822:1
+amlexanox 727:1 729:1 823:1 824:1
+ketoconazole 325:1
+methoxyflurane 295:1 382:1 240:1 384:1 383:1 385:1 386:1
+irbesartan 265:1 635:1
+topotecan 724:1 725:1
+probenecid 825:1 826:1 827:1 828:1
+mercaptopurine 808:1
+procainamide 408:1 799:1
+tolterodine 283:1 421:1 423:1 284:1 422:1
+selegiline 314:1 313:1
+fenofibrate 672:1 829:1
+thalidomide 16:1 830:1 56:1 392:1
+memantine 319:1 249:1 596:1 415:1 320:1
+gatifloxacin 831:1 832:1 833:1 834:1
+lubiprostone 835:1
+fluocinonide 268:1 836:1
+abacavir 397:1
+ibuprofen 392:1 410:1
+nitrendipine 441:1 442:1 443:1 482:1 446:1 447:1 445:1 444:1
+tocainide 408:1
+norfloxacin 373:1 374:1 375:1
+amoxicillin 387:1
+azlocillin 387:1
+oxybutynin 283:1 421:1 284:1
+acetophenazine 419:1 425:1
+melatonin 255:1 805:1 806:1 434:1 837:1 664:1 412:1 838:1 51:1 839:1
+cefditoren 491:1 387:1
+glipizide 379:1 326:1
+clonazepam 286:1 287:1 288:1 289:1 290:1 291:1 292:1 293:1 294:1 296:1 295:1 297:1 298:1 299:1 300:1 302:1 303:1 304:1 285:1
+promethazine 664:1 414:1 419:1 284:1 421:1 283:1 422:1 423:1 361:1 424:1
+dihydrotachysterol 189:1
+mequitazine 414:1
+atazanavir 376:1
+fludarabine 400:1 403:1 840:1
+perhexiline 841:1 842:1
+diphenhydramine 414:1
+atorvastatin 263:1 843:1 531:1
+etidronic_acid 844:1 845:1
+deslanoside 543:1
+tegaserod 645:1 371:1 316:1 424:1
+vigabatrin 269:1 101:1
+diphenoxylate 315:1 318:1
+streptomycin 577:1
+orlistat 846:1 847:1 848:1
+emedastine 414:1
+pilocarpine 283:1 284:1 421:1
+benzocaine 459:1
+primaquine 849:1 255:1
+iloprost 529:1 471:1 456:1 343:1 793:1 792:1 30:1
+deserpidine 353:1
+butenafine 705:1
+fluvastatin 263:1
+leflunomide 850:1 267:1 531:1 851:1
+rosuvastatin 263:1
+flucytosine 799:1 852:1
+pimozide 419:1 427:1 348:1 664:1
+capecitabine 468:1
+arbutamine 305:1 324:1 526:1
+sertraline 264:1 312:1
+sibutramine 311:1 264:1 312:1
+levocabastine 414:1 853:1
+methyprylon 295:1
+trilostane 854:1 855:1 434:1 435:1
+heparin 856:1 82:1 857:1
+miconazole 858:1 859:1 860:1 348:1 485:1 486:1 325:1 861:1 862:1 381:1 863:1 864:1 865:1 866:1 436:1
+cefuroxime 387:1
+papaverine 343:1 804:1
+nifedipine 441:1 442:1 443:1 446:1 447:1 664:1 383:1 444:1
+atovaquone 867:1 868:1 850:1
+amiodarone 348:1 305:1 444:1 445:1
+diazoxide 377:1 389:1 390:1 543:1 381:1 568:1
+gliclazide 379:1 99:1
+phenacemide 431:1
+ambenonium 536:1
+tolbutamide 379:1 378:1
+dutasteride 615:1 523:1
+econazole 325:1
+bicalutamide 524:1
+rabeprazole 364:1
+prednicarbate 268:1
+proguanil 351:1 352:1
+pioglitazone 326:1
+doxacurium_chloride 277:1 421:1
+carvedilol 305:1 361:1 869:1 324:1 99:1 870:1 871:1 348:1 872:1
+levofloxacin 373:1 374:1 375:1
+sulfinpyrazone 873:1 874:1
+cefadroxil 490:1 561:1 493:1 491:1
+micafungin 515:1
+doxepin 283:1 422:1 423:1 361:1 362:1 472:1 369:1 417:1 418:1 420:1 414:1 419:1 448:1 311:1 264:1 424:1 371:1 316:1 284:1 421:1
+amifostine 762:1 747:1
+diphenylpyraline 414:1 312:1
+cloxacillin 387:1 580:1 492:1 875:1 876:1 877:1
+flavoxate 421:1 284:1
+nefazodone 424:1 316:1 264:1 369:1 311:1 312:1 362:1 417:1 361:1
+cefprozil 878:1 879:1 875:1
+desipramine 421:1 283:1 422:1 423:1 581:1 311:1 264:1 424:1 324:1 305:1 880:1 414:1 361:1 284:1
+sertaconazole 325:1
+gemifloxacin 373:1 374:1
+bupropion 312:1 311:1 278:1
+trimetrexate 351:1
+halothane 881:1 386:1 436:1 385:1 384:1 295:1 882:1 883:1 629:1 630:1 381:1 319:1 238:1 249:1 240:1 884:1 885:1
+chloroprocaine 459:1 319:1 282:1 415:1 312:1
+terazosin 361:1 362:1 472:1 348:1 485:1 486:1
+ofloxacin 373:1 374:1 375:1
+cilostazol 396:1
+itraconazole 811:1 886:1
+arsenic_trioxide 411:1 887:1 635:1 888:1 647:1 889:1 890:1
+guanethidine 311:1
+moclobemide 313:1
+kanamycin 577:1
+phenobarbital 479:1 382:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+escitalopram 264:1 312:1 311:1 361:1 284:1 414:1
+cyclizine 414:1 891:1
+idarubicin 375:1
+chlormezanone 296:1
+rescinnamine 266:1
+propafenone 408:1 348:1
+naloxone 315:1 318:1 317:1 892:1 434:1
+domperidone 419:1 427:1
+fluoxymesterone 524:1 434:1 893:1 268:1
+pergolide 420:1 426:1 425:1 367:1 316:1 361:1 362:1 472:1 419:1 427:1 428:1 369:1 371:1 424:1 366:1 418:1 417:1
+desflurane 295:1 240:1 382:1 383:1 384:1 385:1 386:1
+clindamycin 734:1
+dexfenfluramine 264:1 316:1
+acebutolol 305:1 324:1
+brinzolamide 390:1 389:1 391:1 777:1
+flecainide 408:1 637:1
+estramustine 894:1 895:1 434:1 435:1
+captopril 266:1 896:1 818:1
+zopiclone 295:1 297:1 298:1 300:1 296:1
+tubocurarine 277:1 415:1 536:1
+bromocriptine 424:1 367:1 316:1 426:1 425:1 361:1 362:1 472:1 372:1 419:1 427:1 366:1 417:1 369:1 420:1 418:1 371:1 428:1
+rifapentine 897:1
+levetiracetam 898:1 533:1
+nadolol 305:1 324:1
+mitoxantrone 375:1
+flumazenil 295:1 297:1 298:1 300:1
+lomustine 899:1
+sparfloxacin 373:1 374:1 375:1
+dezocine 315:1 317:1
+levobunolol 324:1 305:1
+clarithromycin 734:1
+ceftriaxone 491:1
+fomepizole 768:1 769:1 770:1 900:1
+metipranolol 324:1 305:1
+estazolam 304:1 288:1 289:1 290:1 291:1 292:1 293:1 295:1 297:1 298:1 300:1 285:1 286:1 287:1 302:1 303:1
+finasteride 615:1 523:1 614:1
+anastrozole 510:1
+halofantrine 348:1 901:1
+dantrolene 344:1
+rifaximin 655:1 608:1
+ketamine 319:1 685:1 419:1
+budesonide 268:1
+aminophylline 396:1 341:1 673:1
+quetiapine 372:1 425:1 426:1 427:1 428:1 414:1 361:1 362:1 472:1 417:1 424:1 418:1 420:1 284:1 421:1 283:1 422:1 423:1 419:1 369:1 367:1 366:1 370:1 316:1 415:1 416:1
+enoxaparin 856:1 82:1
+encainide 408:1
+paclitaxel 487:1 902:1
+saquinavir 376:1
+metoclopramide 419:1 284:1 645:1
+dexamethasone 268:1 709:1 465:1 862:1
+levodopa 425:1 426:1 419:1 427:1 428:1
+sevoflurane 295:1 240:1 382:1 383:1 384:1 385:1 386:1
+aripiprazole 372:1 425:1 426:1 427:1 428:1 414:1 361:1 362:1 417:1 418:1 424:1 420:1 284:1 421:1 283:1 422:1 423:1 419:1 369:1 367:1 366:1 370:1 316:1 415:1 416:1
+chlorprothixene 283:1 422:1 423:1 419:1 425:1 427:1 424:1 371:1 316:1 414:1 284:1 421:1
+epoprostenol 354:1 529:1 748:1
+gemfibrozil 672:1
+clomipramine 264:1 424:1 371:1 316:1 311:1 215:1 581:1
+bepridil 388:1 444:1 445:1 543:1 740:1 758:1 664:1 666:1 665:1
+isocarboxazid 313:1 314:1
+docetaxel 487:1 902:1
+olsalazine 903:1 904:1
+gliquidone 379:1 788:1
+mitiglinide 379:1 326:1
+dasatinib 905:1 663:1 906:1 907:1 908:1 909:1 554:1 87:1 910:1 911:1
+lisdexamfetamine 312:1 362:1
+retapamulin 912:1
+eculizumab 913:1
+aliskiren 363:1
+lapatinib 4:1 75:1
+desonide 268:1
+sitagliptin 843:1
+decitabine 799:1
+posaconazole 325:1
+darunavir 376:1
+telbivudine 698:1
+paliperidone 417:1 418:1 420:1 369:1 425:1 914:1 915:1 916:1 424:1 419:1 414:1 361:1 362:1 428:1 366:1 427:1 316:1
+sunitinib 87:1 917:1 554:1 551:1 552:1 553:1 661:1 88:1
+panitumumab 4:1
+ranibizumab 99:1
+idursulfase 918:1
+alglucosidase_alfa 919:1
+varenicline 274:1 275:1 278:1 280:1
+hydralazine 736:1 920:1
+exenatide 921:1
+mecasermin 65:1 922:1 64:1 923:1
+pramlintide 924:1 925:1 926:1 927:1
+galsulfase 918:1
+nelarabine 403:1
+abatacept 928:1 929:1
+carbetocin 93:1
+lumiracoxib 392:1 410:1
+corticotropin 930:1 931:1
+fenoterol 324:1 305:1 526:1
+glisoxepide 379:1 788:1
+pirbuterol 324:1 305:1
+bevantolol 305:1 324:1 361:1
+glucosamine 818:1 932:1 16:1 904:1 933:1
+practolol 305:1
+rolitetracycline 432:1
+insulin_aspart 64:1
+insulin_detemir 64:1
+insulin_glulisine 64:1
+fosamprenavir 376:1
+fosphenytoin 408:1
+josamycin 934:1
+polythiazide 568:1
+quinethazone 389:1 390:1 365:1 719:1 568:1
+cefamandole 798:1
+cefazolin 451:1 452:1 935:1 476:1 440:1 936:1
+cefonicid 451:1 440:1 452:1 478:1 476:1
+cefoperazone 440:1 452:1 476:1 565:1 566:1 454:1 451:1 453:1 478:1
+cefotetan 490:1
+cefoxitin 492:1 561:1 491:1 454:1 453:1 937:1 478:1 451:1 452:1 440:1 490:1 493:1
+ceftizoxime 938:1 451:1 452:1 440:1
+cefradine 451:1
+pancuronium 277:1 421:1 283:1
+vecuronium 277:1
+cilazapril 266:1
+spirapril 266:1
+tasosartan 265:1 939:1
+amobarbital 479:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+aprobarbital 479:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+heptabarbital 479:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+hexobarbital 479:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+lithium 940:1 941:1 942:1 943:1 944:1
+penbutolol 305:1 324:1
+troleandomycin 945:1 946:1
+ephedrine 311:1 361:1 353:1 536:1
+mephentermine 361:1
+procaterol 324:1
+rasagiline 314:1 902:1
+ginkgo_biloba 311:1 640:1 240:1 295:1 303:1 286:1
+paramethasone 268:1
+mibefradil 545:1 546:1 506:1 444:1 441:1 446:1 544:1 631:1 447:1 481:1 443:1
+bezafibrate 672:1 530:1 326:1
+colchicine 487:1 514:1
+digitoxin 543:1
+salsalate 392:1 410:1
+neostigmine 536:1
+temafloxacin 374:1 373:1
+danazol 434:1 524:1 470:1 36:1 677:1 947:1
+clenbuterol 324:1 305:1 526:1 948:1 16:1
+bambuterol 324:1
+ciclesonide 268:1
+pranlukast 586:1 16:1 949:1 950:1 830:1 951:1
+theobromine 341:1 342:1 343:1
+cefepime 476:1 440:1 876:1 570:1
+cefacetrile 451:1 452:1
+ceftibuten 440:1 451:1 452:1 476:1
+cefpodoxime 440:1
+acenocoumarol 258:1
+paromomycin 952:1
+nitroxoline 953:1
+alizapride 419:1
+ajmaline 408:1
+amrinone 396:1 343:1 16:1
+aprindine 408:1 664:1
+almitrine 543:1
+allylestrenol 470:1 434:1
+alfacalcidol 189:1 954:1
+glutethimide 295:1
+phenazopyridine 431:1
+ethylmorphine 315:1
+barbital 479:1 295:1 297:1 298:1 299:1 300:1 301:1 274:1 275:1 480:1
+flunitrazepam 296:1 297:1 299:1 300:1 301:1 298:1
+bromazepam 285:1 286:1 287:1 288:1 289:1 290:1 291:1 292:1 293:1 294:1 295:1 297:1 298:1 299:1 300:1 301:1 302:1 303:1 304:1
+clotiazepam 304:1 288:1 289:1 290:1 291:1 292:1 293:1 295:1 297:1 298:1 300:1 285:1 286:1 287:1 302:1 303:1
+fludiazepam 304:1 288:1 289:1 290:1 291:1 292:1 293:1 295:1 297:1 298:1 300:1 285:1 286:1 287:1 302:1 303:1
+oxprenolol 305:1 324:1
+sulfamerazine 437:1
+ursodeoxycholic_acid 955:1
+ketazolam 296:1 295:1 302:1 285:1 288:1 289:1
+prazepam 304:1 288:1 289:1 290:1 291:1 292:1 293:1 295:1 297:1 298:1 300:1 285:1 286:1 287:1 302:1 303:1
+quazepam 288:1 289:1 290:1 291:1 292:1 293:1 295:1 297:1 298:1 300:1 285:1 286:1 287:1 302:1 304:1
+everolimus 503:1
+solifenacin 283:1 284:1 421:1 422:1 423:1
+cinolazepam 304:1 288:1 289:1 290:1 291:1 292:1 293:1 295:1 297:1 298:1 300:1 285:1 286:1 287:1 302:1 303:1
+nitrazepam 285:1 286:1 287:1 288:1 289:1 290:1 291:1 292:1 293:1 294:1 295:1 431:1 297:1 298:1 299:1 300:1 301:1 302:1 303:1 304:1
+probucol 956:1 332:1
+tiaprofenic_acid 392:1 410:1
+lopinavir 376:1
+bacampicillin 387:1
+meticillin 938:1 492:1 493:1 491:1 490:1 561:1
+pivampicillin 387:1
+pivmecillinam 387:1
+tazobactam 957:1 958:1
+ticarcillin 450:1
+hydroxychloroquine 703:1 650:1
+amyl_nitrite 498:1
+acepromazine 419:1 425:1 424:1 369:1 361:1 362:1
+alverine 369:1
+molindone 419:1 369:1 424:1 284:1
+phenindamine 414:1
+pheniramine 414:1
+pipotiazine 419:1 425:1 424:1 369:1
+thioproperazine 419:1 425:1 424:1 369:1 361:1 362:1
+zuclopenthixol 425:1 426:1 419:1 361:1 417:1 424:1
+isopropamide 283:1 422:1
+pargyline 314:1 313:1
+lincomycin 734:1
+etoricoxib 392:1
+flufenamic_acid 392:1 410:1 772:1 524:1
+calcipotriol 189:1
+carbenoxolone 959:1 960:1
+tolrestat 646:1 961:1 962:1
+vorinostat 963:1 380:1 964:1 965:1 966:1 967:1
+terlipressin 52:1 54:1 53:1
+fumagillin 968:1
+cholic_acid 969:1 970:1 971:1 972:1 973:1 974:1 975:1 976:1 977:1 332:1 978:1 979:1 980:1 770:1 329:1 981:1 982:1 983:1 984:1 985:1 986:1
+nicotinamide 987:1 988:1 989:1 990:1 991:1
+fusidic_acid 992:1 993:1 994:1
+piretanide 365:1
+oxitriptan 995:1
+acetylcholine 536:1
+phenol 996:1 528:1 997:1
+oxyphenbutazone 394:1
+ribostamycin 998:1 999:1 1000:1 577:1
+phenacetin 410:1
+glycerol 1001:1 1002:1 1003:1 1004:1 1005:1 1006:1 1007:1 1008:1 1009:1 1010:1 1011:1 211:1 1012:1 215:1 394:1 1013:1 1014:1 1015:1 1016:1 1017:1 769:1 1018:1 1019:1 1020:1
+fotemustine 887:1
+valpromide 1021:1
+fructose 1022:1 1023:1
+citric_acid 1024:1 1025:1 1026:1 1027:1 1028:1 1029:1 1030:1 1031:1 1032:1 1033:1 1034:1 1035:1 1036:1 1037:1 1038:1 1039:1 1040:1 1041:1 1042:1 1043:1 1044:1 1045:1 1046:1 1047:1 1048:1 1049:1 1050:1 1051:1 1052:1 1053:1 1054:1 1055:1 1056:1 1057:1 1058:1 1059:1 1060:1 1061:1 1062:1 1063:1 1064:1 1065:1 1066:1 1067:1 1068:1 1069:1 1070:1 1071:1 1072:1 646:1 1073:1 1074:1 1075:1 1076:1 1077:1 1078:1 345:1 1079:1 906:1 1080:1 1081:1 1082:1 244:1 950:1 1083:1 1084:1 1085:1 1086:1 1087:1
+lactic_acid 1088:1 1089:1
+niflumic_acid 977:1 392:1 1090:1 410:1 1091:1 1092:1
+latamoxef 508:1 451:1 452:1 478:1
+estriol 434:1 435:1
+fleroxacin 375:1 374:1 373:1
+aniracetam 424:1 419:1 480:1 944:1
+aldosterone 547:1
+nimesulide 392:1 394:1 1093:1
+bifonazole 325:1 1094:1
+nialamide 314:1 313:1 497:1
+nomifensine 311:1 312:1 314:1 313:1 412:1
+phenolphthalein 1092:1
+prenylamine 664:1
+zomepirac 648:1
+maraviroc 1095:1
+amineptine 311:1 264:1
+cyclandelate 442:1 332:1
+cyproterone 524:1
+flunarizine 506:1 444:1 631:1 414:1 664:1
+fluspirilene 419:1 424:1 482:1
+mepenzolate 284:1 283:1
+tetrabenazine 353:1
+ixabepilone 1096:1
+nebivolol 305:1 324:1
+nilotinib 663:1 554:1
+vildagliptin 843:1
+voglibose 460:1
+enoximone 396:1
+vapreotide 92:1 91:1 685:1
+pegaptanib 57:1
+milnacipran 264:1 311:1
+ximelagatran 19:1
+nesiritide 498:1 1097:1 1098:1
+permethrin 431:1
+defibrotide 341:1 342:1 455:1
+lofexidine 417:1
+indacaterol 324:1
+glatiramer_acetate 1099:1
+ibudilast 456:1 343:1 793:1 792:1 396:1
+rotigotine 427:1 428:1 419:1 426:1 425:1 369:1
+sodium_stibogluconate 724:1
+sertindole 419:1 424:1 316:1 416:1 348:1 361:1 362:1 472:1
+sulfathiazole 513:1
+mianserin 417:1 424:1 316:1 414:1 311:1 264:1
+rimonabant 584:1
+canakinumab 817:1
+icatibant 1100:1 803:1
+prasugrel 354:1
+rivaroxaban 82:1
+sitaxentan 624:1 625:1
+sulodexide 1101:1 856:1
+alvimopan 315:1 317:1 318:1
+teriparatide 1102:1
+temsirolimus 503:1
+amisulpride 419:1 427:1 372:1 424:1
+saxagliptin 843:1
+tyloxapol 1103:1
+agomelatine 316:1 805:1 806:1
+liraglutide 921:1
+mepyramine 414:1
+aprotinin 1104:1 1105:1 22:1 1106:1
+xylometazoline 361:1 417:1 418:1 362:1 472:1 420:1
+dabigatran_etexilate 19:1
+arbekacin 577:1
+betahistine 414:1 684:1
+degarelix 36:1
+desvenlafaxine 264:1 311:1
+dexmethylphenidate 312:1 311:1 264:1
+fesoterodine 283:1 422:1 284:1 421:1 423:1
+isometheptene 361:1 353:1
+methyltestosterone 524:1
+naphazoline 361:1 417:1
+nilvadipine 441:1 442:1 443:1 446:1 447:1 534:1
+buserelin 35:1 36:1
+lornoxicam 410:1 392:1
+sulfaphenazole 437:1
+drotaverine 456:1 441:1
+carglumic_acid 1107:1
+chenodeoxycholic_acid 1108:1
+dalteparin 856:1 99:1 1109:1 857:1
+difluprednate 268:1
+nepafenac 410:1 392:1
+plerixafor 578:1
+tinzaparin 856:1 96:1 1110:1
+parecoxib 1093:1
+triclosan 1111:1 1112:1 651:1 1113:1 1114:1 1115:1
+thiamphenicol 575:1
+azidocillin 492:1 493:1 490:1 561:1 491:1
+sulfamoxole 513:1
+antazoline 414:1
+chloropyramine 414:1
+isothipendyl 414:1
+bopindolol 305:1 324:1 369:1 367:1 526:1
+bupranolol 305:1 324:1 526:1
+tofisopam 456:1 804:1 396:1 1116:1
+nadroparin 856:1 857:1 1117:1 1118:1
+triflusal 410:1 830:1 862:1 804:1
+ticagrelor 354:1
+tafluprost 464:1
