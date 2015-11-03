@@ -1,14 +1,21 @@
 import math
 
-def dist(a_dict, b_dict):
-    a = dict(a_dict)
-    b = dict(b_dict)
-    squaresum = 0.0
+
+def dist(a_data, b_data):
+    a = dict(a_data[1])
+    b = dict(b_data[1])
+    square_sum = 0.0
     for i in range(0, max( max(a.keys()), max(b.keys()) )):
         ai = a.get(i, 0.0)
         bi = b.get(i, 0.0)
-        squaresum += pow(ai-bi, 2.0)
-    return math.sqrt(squaresum)
+        square_sum += pow(ai-bi, 2.0)
+    return math.sqrt(square_sum)
+
+
+def n_k(data_list, k, a_index):
+    distances = [ dist(data_list[a_index], i) for i in data_list ]
+    a = [ m[1] for m in (sorted((e,i) for i,e in enumerate(distances))) ]
+    return a[1:k+1]
 
 
 def read_data():
@@ -28,8 +35,7 @@ def read_data():
 
 def main():
     data_list = read_data()
-    distance = dist(data_list[0][1], data_list[1][1])
-    print(distance)
+    print(n_k(data_list, 3, 1))
 
 if __name__ == "__main__":
     # execute only if run as a script
