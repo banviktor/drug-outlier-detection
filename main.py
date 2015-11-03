@@ -15,6 +15,7 @@ def dist(data_list, a_index, b_index):
 def n_k(data_list, k, a_index):
     distances = (dist(data_list, a_index, i) for i in range(len(data_list)))
     a = [m[1] for m in (sorted((e, i) for i, e in enumerate(distances)))]
+    # can be > k
     return a[1:k + 1]
 
 
@@ -24,6 +25,14 @@ def k_distance(data_list, k, a_index):
 
 def reachability_distance(data_list, k, a_index, b_index):
     return max(k_distance(data_list, k, b_index), dist(data_list, a_index, b_index))
+
+
+def lrd(data_list, k, a_index):
+    rd_sum = 0.0
+    for i in range(0, len(data_list)):
+        if i != a_index:
+            rd_sum += reachability_distance(data_list, k, a_index, i)
+    return len(n_k(data_list, k, a_index)) / rd_sum
 
 
 def read_data(source):
@@ -43,7 +52,8 @@ def read_data(source):
 
 def main():
     data_list = read_data("freq.ker")
-    print(reachability_distance(data_list, 3, 0, 2))
+    # slow
+    print(lrd(data_list, 3, 0))
 
 
 if __name__ == "__main__":
