@@ -13,9 +13,17 @@ def dist(a_data, b_data):
 
 
 def n_k(data_list, k, a_index):
-    distances = [ dist(data_list[a_index], i) for i in data_list ]
+    distances = ( dist(data_list[a_index], i) for i in data_list )
     a = [ m[1] for m in (sorted((e,i) for i,e in enumerate(distances))) ]
     return a[1:k+1]
+
+
+def k_distance(data_list, k, a_index):
+    return dist(data_list[a_index], data_list[n_k(data_list, k, a_index)[-1]])
+
+
+def reachability_distance(data_list, k, a_index, b_index):
+    return max(k_distance(data_list, k, b_index), dist(data_list[a_index], data_list[b_index]))
 
 
 def read_data():
@@ -27,15 +35,15 @@ def read_data():
             data_dict = {}
             for data in line_split[1:]:
                 data_split = data.split(":")
-                data_dict[ int(data_split[0]) ] = float(data_split[1])
-            data_list.append( (line[:line.find(" ")], data_dict) )
+                data_dict[int(data_split[0])] = float(data_split[1])
+            data_list.append((line[:line.find(" ")], data_dict))
     print(data_list[0])
     return data_list
 
 
 def main():
     data_list = read_data()
-    print(n_k(data_list, 3, 1))
+    print(reachability_distance(data_list, 3, 0, 2))
 
 if __name__ == "__main__":
     # execute only if run as a script
