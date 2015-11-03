@@ -26,9 +26,9 @@ def reachability_distance(data_list, k, a_index, b_index):
     return max(k_distance(data_list, k, b_index), dist(data_list, a_index, b_index))
 
 
-def read_data():
+def read_data(source):
     data_list = []
-    with open("data/freq.ker", "r") as f:
+    with open("data/" + source, "r") as f:
         lines = f.readlines()
         for line in lines:
             line_split = line[line.find(" "):].split(" ")
@@ -42,7 +42,7 @@ def read_data():
 
 
 def main():
-    data_list = read_data()
+    data_list = read_data("freq.ker")
     print(reachability_distance(data_list, 3, 0, 2))
 
 
