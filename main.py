@@ -1,6 +1,4 @@
-import math
 import numpy as np
-import numexpr as ne
 import functools as ft
 
 
@@ -46,19 +44,7 @@ class CalculateLof:
         # can be > k
         return a[1:k + 1]
 
-    '''
-    class KDistances:
-        kd_dict = {}
-
-        def k_distance(self, calculate_lof, k, a_index):
-            data_list = calculate_lof.distances.data_list
-            if k not in self.kd_dict:
-                self.kd_dict[k] = []
-                for i, e in enumerate(data_list):
-                    self.kd_dict[k].append(calculate_lof.distances.dist(i, calculate_lof.n_k(i)[-1]))
-            return self.kd_dict[k][a_index]
-    '''
-    @ft.lru_cache(maxsize=1852)
+    @ft.lru_cache(maxsize=None)
     def k_distance(self, a_index):
         return self.distances.dist(a_index, self.n_k(a_index)[-1])
 
@@ -66,7 +52,7 @@ class CalculateLof:
         k = self.k
         return max(self.k_distance(b_index), self.distances.dist(a_index, b_index))
 
-    @ft.lru_cache(maxsize=1852)
+    @ft.lru_cache(maxsize=None)
     def lrd(self, a_index):
         data_list = self.distances.data_list
         rd_sum = 0.0
@@ -144,10 +130,11 @@ class CalculateLof:
         print("Osszes LOF kiszamitasa: " + str(end - start))
 
         print(self.lofs[:10])
+        print(self.lrd.cache_info())
 
 
 def main():
-    calculateLof = CalculateLof("maccs.ker", 3)
+    calculateLof = CalculateLof("freq.ker", 3)
 
 if __name__ == "__main__":
     # execute only if run as a script
