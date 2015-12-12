@@ -14,7 +14,9 @@ class CalculateLof:
 
         def __init__(self, data_list):
             self.data_list = data_list
-            self.dist_list = [[0]*len(data_list)]*len(data_list)
+            self.dist_list = []
+            for i in range(0, len(data_list)):
+                self.dist_list.insert(i, [0]*len(data_list))
             self.calc_distances()
 
         def calc_distances(self):
