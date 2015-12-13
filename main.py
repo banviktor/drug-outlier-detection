@@ -38,6 +38,7 @@ class CalculateLof:
         def dist(self, a_index, b_index):
             return self.dist_list[a_index][b_index]
 
+    @ft.lru_cache(maxsize=None)
     def n_k(self, a_index):
         data_list = self.distances.data_list
         k = self.k
