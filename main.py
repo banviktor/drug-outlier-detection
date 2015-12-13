@@ -22,15 +22,11 @@ class CalculateLof:
         def calc_distances(self):
             for i, a_data in enumerate(self.data_list):
                 for j, b_data in enumerate(self.data_list):
-                    if a_data == b_data:
+                    if i == j:
                         break
                     a = a_data[1]
                     b = b_data[1]
 
-                    '''
-                    Faster solution
-                    http://stackoverflow.com/questions/1401712/how-can-the-euclidean-distance-be-calculated-with-numpy
-                    '''
                     diff = np.linalg.norm(a-b)
                     self.dist_list[i][j] = diff
                     self.dist_list[j][i] = diff
@@ -56,25 +52,24 @@ class CalculateLof:
         return self.distances.dist(a_index, self.n_k(a_index)[-1])
 
     def reachability_distance(self, a_index, b_index):
-        k = self.k
         return max(self.k_distance(b_index), self.distances.dist(a_index, b_index))
 
     @ft.lru_cache(maxsize=None)
     def lrd(self, a_index):
-        data_list = self.distances.data_list
+        nk = self.n_k(a_index)
         rd_sum = 0.0
-        for i in range(0, len(data_list)):
-            if i != a_index:
-                rd_sum += self.reachability_distance(a_index, i)
-        return len(self.n_k(a_index)) / rd_sum
+        for b_index in nk:
+            rd_sum += self.reachability_distance(a_index, b_index)
+        if rd_sum == 0:
+            return float("inf")
+        return len(nk) / rd_sum
 
     def lof(self, a_index):
-        data_list = self.distances.data_list
+        nk = self.n_k(a_index)
         lof_sum = 0.0
-        for b_index in range(len(data_list)):
-            if a_index != b_index:
-                lof_sum += self.lrd(b_index)
-        return lof_sum / len(self.n_k(a_index)) / self.lrd(a_index)
+        for b_index in nk:
+            lof_sum += self.lrd(b_index)
+        return lof_sum / len(nk) / self.lrd(a_index)
 
     def calc_lof(self):
         for i, e in enumerate(self.distances.data_list):
