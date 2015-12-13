@@ -42,9 +42,13 @@ class CalculateLof:
     def n_k(self, a_index):
         k = self.k
         dist = self.distances.dist_list[a_index][:]
-        a = [m[1] for m in (sorted((e, i) for i, e in enumerate(dist)))]
-        # can be > k
-        return a[1:k + 1]
+        out = []
+        for m in (sorted((e, i) for i, e in enumerate(dist))):
+            if len(out) < k or (len(out) > 0 and m[0] == dist[out[len(out)-1]]):
+                out.append(m[1])
+            else:
+                break
+        return out
 
     @ft.lru_cache(maxsize=None)
     def k_distance(self, a_index):
