@@ -45,7 +45,8 @@ class CalculateLof:
         out = []
         for m in (sorted((e, i) for i, e in enumerate(dist))):
             if len(out) < k or (len(out) > 0 and m[0] == dist[out[len(out)-1]]):
-                out.append(m[1])
+                if m[1] != a_index:
+                    out.append(m[1])
             else:
                 break
         return out
