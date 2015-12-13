@@ -33,9 +33,9 @@ class CalculateLof:
                     '''
                     diff = np.linalg.norm(a-b)
                     self.dist_list[i][j] = diff
+                    self.dist_list[j][i] = diff
 
         def dist(self, a_index, b_index):
-            a_index, b_index = sorted((a_index, b_index), reverse=True)
             return self.dist_list[a_index][b_index]
 
     def n_k(self, a_index):
