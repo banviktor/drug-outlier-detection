@@ -40,7 +40,7 @@ class CalculateLof:
         dist = self.distances.dist_list[a_index][:]
         out = []
         for m in (sorted((e, i) for i, e in enumerate(dist))):
-            if len(out) < k or (len(out) > 0 and m[0] == dist[out[len(out)-1]]):
+            if len(out) < k or (len(out) > 0 and m[0] == dist[out[-1]]):
                 if m[1] != a_index:
                     out.append(m[1])
             else:
