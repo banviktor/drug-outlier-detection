@@ -16,7 +16,7 @@ class CalculateLof:
             self.data_list = data_list
             self.dist_list = []
             for i in range(0, len(data_list)):
-                self.dist_list.insert(i, [0]*len(data_list))
+                self.dist_list.insert(i, [0.0]*len(data_list))
             self.calc_distances()
 
         def calc_distances(self):
@@ -35,7 +35,7 @@ class CalculateLof:
                     self.dist_list[i][j] = diff
 
         def dist(self, a_index, b_index):
-            a_index, b_index = sorted((a_index, b_index))
+            a_index, b_index = sorted((a_index, b_index), reverse=True)
             return self.dist_list[a_index][b_index]
 
     def n_k(self, a_index):
@@ -107,7 +107,7 @@ class CalculateLof:
         data_list = CalculateLof.read_data(filename)
         print(data_list[0])
         self.distances = CalculateLof.Distances(data_list)
-        print(self.distances.dist_list[0])
+        print(self.distances.dist_list[35])
         end = time.time()
         print("Tavolsagmatrix felepitese: " + str(end - start))
 
