@@ -40,9 +40,8 @@ class CalculateLof:
 
     @ft.lru_cache(maxsize=None)
     def n_k(self, a_index):
-        data_list = self.distances.data_list
         k = self.k
-        dist = (self.distances.dist(a_index, i) for i in range(len(data_list)))
+        dist = self.distances.dist_list[a_index][:]
         a = [m[1] for m in (sorted((e, i) for i, e in enumerate(dist)))]
         # can be > k
         return a[1:k + 1]
@@ -137,7 +136,14 @@ class CalculateLof:
 
 
 def main():
+    import time
+    start = time.time()
     calculateLof = CalculateLof("freq.ker", 3)
+    calculateLof = CalculateLof("maccs.ker", 3)
+    calculateLof = CalculateLof("molconnz.ker", 3)
+    calculateLof = CalculateLof("target.ker", 3)
+    end = time.time()
+    print("Minden: " + str(end - start))
 
 if __name__ == "__main__":
     # execute only if run as a script
