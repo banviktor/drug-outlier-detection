@@ -136,10 +136,13 @@ class CalculateLof:
 def main():
     import time
     start = time.time()
+    '''
     calculateLof = CalculateLof("freq.ker", 3)
     calculateLof = CalculateLof("maccs.ker", 3)
     calculateLof = CalculateLof("molconnz.ker", 3)
     calculateLof = CalculateLof("target.ker", 3)
+    '''
+    calculateLof = CalculateLof("try.ker", 3)
     end = time.time()
     print("Minden: " + str(end - start))
 
