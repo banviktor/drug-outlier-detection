@@ -4,9 +4,42 @@ import functools as ft
 
 class CalculateLof:
 
-    distances = None
-    lofs = []
-    k = 0
+    def __init__(self, filename, k):
+        self.k = k
+        self.lofs = []
+        import time
+        start = time.time()
+
+        data_list = CalculateLof.read_data(filename)
+        # print(data_list[0])
+        self.distances = CalculateLof.Distances(data_list)
+        # print(self.distances.dist_list[35])
+        end = time.time()
+        print("Tavolsagmatrix felepitese: " + str(end - start))
+
+        '''
+        start = time.time()
+        print(self.lrd(0))
+        end = time.time()
+        print("lrd kiszamitasa: " + str(end - start))
+        '''
+
+        '''
+        start = time.time()
+        print(self.lof(0))
+        end = time.time()
+        print("LOF kiszamitasa: " + str(end - start))
+        '''
+
+        start = time.time()
+        self.calc_lof()
+        end = time.time()
+        print("Osszes LOF kiszamitasa: " + str(end - start))
+
+        print(self.lofs[:10])
+        print(self.n_k.cache_info())
+        print(self.k_distance.cache_info())
+        print(self.lrd.cache_info())
 
     class Distances:
         data_list = []
@@ -98,41 +131,6 @@ class CalculateLof:
                     value_list[int(split_value[0])] = float(split_value[1])
                 data_list.append((split_line[0], value_list))
         return data_list
-
-    def __init__(self, filename, k):
-        self.k = k
-        import time
-        start = time.time()
-
-        data_list = CalculateLof.read_data(filename)
-        print(data_list[0])
-        self.distances = CalculateLof.Distances(data_list)
-        print(self.distances.dist_list[35])
-        end = time.time()
-        print("Tavolsagmatrix felepitese: " + str(end - start))
-
-        '''
-        start = time.time()
-        print(self.lrd(0))
-        end = time.time()
-        print("lrd kiszamitasa: " + str(end - start))
-        '''
-
-        '''
-        start = time.time()
-        print(self.lof(0))
-        end = time.time()
-        print("LOF kiszamitasa: " + str(end - start))
-        '''
-
-        start = time.time()
-        self.calc_lof()
-        print(self.lofs[0])
-        end = time.time()
-        print("Osszes LOF kiszamitasa: " + str(end - start))
-
-        print(self.lofs[:10])
-        print(self.lrd.cache_info())
 
 
 def main():
