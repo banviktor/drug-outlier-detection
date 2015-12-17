@@ -77,7 +77,15 @@ class SingleSet:
         lof_sum = 0.0
         for b_index in nk:
             lof_sum += self.__lrd(b_index)
-        return lof_sum / len(nk) / self.__lrd(a_index)
+
+        lrd_a = self.__lrd(a_index)
+        if lof_sum == float("inf") and lrd_a == float("inf"):
+            return 1.0
+        elif lrd_a == float("inf"):
+            return 0.0
+        elif lof_sum == float("inf"):
+            return float("inf")
+        return lof_sum / len(nk) / lrd_a
 
 
 class FusedSet:
@@ -100,11 +108,12 @@ class FusedSet:
 
 
 def main():
+    print("LOF calculation started...")
     fused = FusedSet()
     fused.add_set(SingleSet("freq.ker", 3))
-    # fused.add_set(SingleSet("maccs.ker", 3))
-    # fused.add_set(SingleSet("molconnz.ker", 3))
-    # fused.add_set(SingleSet("target.ker", 3))
+    fused.add_set(SingleSet("maccs.ker", 3))
+    fused.add_set(SingleSet("molconnz.ker", 3))
+    fused.add_set(SingleSet("target.ker", 3))
 
     output = open("results.csv", "w")
     for drug, lof in fused.all_lof():
