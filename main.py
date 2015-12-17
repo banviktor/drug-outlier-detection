@@ -2,6 +2,8 @@ import numpy as np
 import functools as ft
 import operator as op
 import time
+import matplotlib.pyplot as plt
+
 
 class SingleSet:
     def __init__(self, filename, k):
@@ -106,6 +108,14 @@ class FusedSet:
             out[subject] = np.average(lof_list)
         return sorted(out.items(), key=op.itemgetter(1), reverse=True)
 
+    def plot(self):
+        lofs = [v[1] for v in self.all_lof()]
+        plt.hist(lofs, bins=10, range=(0, 5))
+        plt.title("Local Outlier Factor Histogram")
+        plt.xlabel("Local Outlier Factor")
+        plt.ylabel("Number of values")
+        plt.show()
+
 
 def main():
     start = time.time()
@@ -122,6 +132,8 @@ def main():
     print("LOF calculation completed. Check the results in results.csv.")
     end = time.time()
     print("Calculation took {} seconds".format(np.round(end - start, 3)))
+    fused.plot()
 
 if __name__ == "__main__":
     main()
+
