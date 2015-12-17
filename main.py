@@ -2,75 +2,53 @@ import numpy as np
 import functools as ft
 
 
-class CalculateLof:
-
+class SingleSet:
     def __init__(self, filename, k):
         self.k = k
-        self.lofs = []
-        import time
-        start = time.time()
+        self.data = SingleSet.read_data(filename)
+        self.distances = []
+        for i in range(0, len(self.data)):
+            self.distances.insert(i, [0.0]*len(self.data))
+        self.__calc_distances()
 
-        data_list = CalculateLof.read_data(filename)
-        # print(data_list[0])
-        self.distances = CalculateLof.Distances(data_list)
-        # print(self.distances.dist_list[35])
-        end = time.time()
-        print("Tavolsagmatrix felepitese: " + str(end - start))
-
-        '''
-        start = time.time()
-        print(self.lrd(0))
-        end = time.time()
-        print("lrd kiszamitasa: " + str(end - start))
-        '''
-
-        '''
-        start = time.time()
-        print(self.lof(0))
-        end = time.time()
-        print("LOF kiszamitasa: " + str(end - start))
-        '''
-
-        start = time.time()
-        self.calc_lof()
-        end = time.time()
-        print("Osszes LOF kiszamitasa: " + str(end - start))
-
-        print(self.lofs[:10])
-        print(self.n_k.cache_info())
-        print(self.k_distance.cache_info())
-        print(self.lrd.cache_info())
-
-    class Distances:
+    @staticmethod
+    def read_data(source):
         data_list = []
-        dist_list = []
+        with open("data/" + source, "r") as f:
+            lines = f.readlines()
 
-        def __init__(self, data_list):
-            self.data_list = data_list
-            self.dist_list = []
-            for i in range(0, len(data_list)):
-                self.dist_list.insert(i, [0.0]*len(data_list))
-            self.calc_distances()
+            cols = 0
+            for l in lines:
+                split_line = l.split(" ")
+                for value in split_line[1:]:
+                    split_value = value.split(":")
+                    cols = max(cols, int(split_value[0])+1)
 
-        def calc_distances(self):
-            for i, a_data in enumerate(self.data_list):
-                for j, b_data in enumerate(self.data_list):
-                    if i == j:
-                        break
-                    a = a_data[1]
-                    b = b_data[1]
+            for i, line in enumerate(lines):
+                split_line = line.split(" ")
+                value_list = np.zeros(cols)
+                for value in split_line[1:]:
+                    split_value = value.split(":")
+                    value_list[int(split_value[0])] = float(split_value[1])
+                data_list.append((split_line[0], value_list))
+        return data_list
 
-                    diff = np.linalg.norm(a-b)
-                    self.dist_list[i][j] = diff
-                    self.dist_list[j][i] = diff
+    def __calc_distances(self):
+        for i, a_data in enumerate(self.data):
+            for j, b_data in enumerate(self.data):
+                if i == j:
+                    break
+                a = a_data[1]
+                b = b_data[1]
 
-        def dist(self, a_index, b_index):
-            return self.dist_list[a_index][b_index]
+                diff = np.linalg.norm(a-b)
+                self.distances[i][j] = diff
+                self.distances[j][i] = diff
 
     @ft.lru_cache(maxsize=None)
-    def n_k(self, a_index):
+    def __n_k(self, a_index):
         k = self.k
-        dist = self.distances.dist_list[a_index][:]
+        dist = self.distances[a_index][:]
         out = []
         for m in (sorted((e, i) for i, e in enumerate(dist))):
             if len(out) < k or (len(out) > 0 and m[0] == dist[out[-1]]):
@@ -81,71 +59,58 @@ class CalculateLof:
         return out
 
     @ft.lru_cache(maxsize=None)
-    def k_distance(self, a_index):
-        return self.distances.dist(a_index, self.n_k(a_index)[-1])
-
-    def reachability_distance(self, a_index, b_index):
-        return max(self.k_distance(b_index), self.distances.dist(a_index, b_index))
+    def __k_distance(self, a_index):
+        return self.distances[a_index][self.__n_k(a_index)[-1]]
 
     @ft.lru_cache(maxsize=None)
-    def lrd(self, a_index):
-        nk = self.n_k(a_index)
+    def __lrd(self, a_index):
+        nk = self.__n_k(a_index)
         rd_sum = 0.0
         for b_index in nk:
-            rd_sum += self.reachability_distance(a_index, b_index)
+            rd_sum += max(self.__k_distance(b_index), self.distances[a_index][b_index])
         if rd_sum == 0:
             return float("inf")
         return len(nk) / rd_sum
 
     def lof(self, a_index):
-        nk = self.n_k(a_index)
+        nk = self.__n_k(a_index)
         lof_sum = 0.0
         for b_index in nk:
-            lof_sum += self.lrd(b_index)
-        return lof_sum / len(nk) / self.lrd(a_index)
+            lof_sum += self.__lrd(b_index)
+        return lof_sum / len(nk) / self.__lrd(a_index)
 
-    def calc_lof(self):
-        for i, e in enumerate(self.distances.data_list):
-            self.lofs.append(self.lof(i))
 
-    @staticmethod
-    def read_data(source):
-        data_list = []
-        with open("data/" + source, "r") as f:
-            lines = f.readlines()
+class FusedSet:
+    def __init__(self):
+        self.data = dict()
 
-            # count matrix columns
-            cols = 0
-            for l in lines:
-                split_line = l.split(" ")
-                for value in split_line[1:]:
-                    split_value = value.split(":")
-                    cols = max(cols, int(split_value[0])+1)
+    def add_set(self, single_set):
+        for i in range(0, len(single_set.data)):
+            subject = single_set.data[i][0]
+            if not self.data.__contains__(subject):
+                self.data[subject] = []
+            self.data[subject].append(single_set.lof(i))
 
-            # read values to a matrix
-            for i, line in enumerate(lines):
-                split_line = line.split(" ")
-                value_list = np.zeros(cols)
-                for value in split_line[1:]:
-                    split_value = value.split(":")
-                    value_list[int(split_value[0])] = float(split_value[1])
-                data_list.append((split_line[0], value_list))
-        return data_list
+    def all_lof(self):
+        out = dict()
+        for subject, lof_list in self.data.items():
+            out[subject] = np.average(lof_list)
+        import operator
+        return sorted(out.items(), key=operator.itemgetter(1), reverse=True)
 
 
 def main():
-    import time
-    start = time.time()
-    '''
-    calculateLof = CalculateLof("freq.ker", 3)
-    calculateLof = CalculateLof("maccs.ker", 3)
-    calculateLof = CalculateLof("molconnz.ker", 3)
-    calculateLof = CalculateLof("target.ker", 3)
-    '''
-    calculateLof = CalculateLof("try.ker", 3)
-    end = time.time()
-    print("Minden: " + str(end - start))
+    fused = FusedSet()
+    fused.add_set(SingleSet("freq.ker", 3))
+    # fused.add_set(SingleSet("maccs.ker", 3))
+    # fused.add_set(SingleSet("molconnz.ker", 3))
+    # fused.add_set(SingleSet("target.ker", 3))
+
+    output = open("results.csv", "w")
+    for drug, lof in fused.all_lof():
+        output.write("{},{}\n".format(drug, lof))
+    output.close()
+    print("LOF calculation completed. Check the results in results.csv.")
 
 if __name__ == "__main__":
-    # execute only if run as a script
     main()
