@@ -108,18 +108,21 @@ class FusedSet:
 
 
 def main():
+    import time
+    start = time.time()
     print("LOF calculation started...")
     fused = FusedSet()
-    fused.add_set(SingleSet("freq.ker", 3))
-    fused.add_set(SingleSet("maccs.ker", 3))
-    fused.add_set(SingleSet("molconnz.ker", 3))
-    fused.add_set(SingleSet("target.ker", 3))
-
+    fused.add_set(SingleSet("freq.ker", 25))
+    fused.add_set(SingleSet("maccs.ker", 25))
+    fused.add_set(SingleSet("molconnz.ker", 25))
+    fused.add_set(SingleSet("target.ker", 25))
     output = open("results.csv", "w")
     for drug, lof in fused.all_lof():
         output.write("{},{}\n".format(drug, lof))
     output.close()
     print("LOF calculation completed. Check the results in results.csv.")
+    end = time.time()
+    print("Calculation took {} seconds".format(np.round(end - start, 3)))
 
 if __name__ == "__main__":
     main()
