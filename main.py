@@ -125,10 +125,9 @@ def main():
     fused.add_set(SingleSet("maccs.ker", 25))
     fused.add_set(SingleSet("molconnz.ker", 25))
     fused.add_set(SingleSet("target.ker", 25))
-    output = open("results.csv", "w")
-    for drug, lof in fused.all_lof():
-        output.write("{},{}\n".format(drug, lof))
-    output.close()
+    with open('results.csv', 'w') as output:
+        for drug, lof in fused.all_lof():
+            output.write("{},{}\n".format(drug, lof))
     print("LOF calculation completed. Check the results in results.csv.")
     end = time.time()
     print("Calculation took {} seconds".format(np.round(end - start, 3)))
