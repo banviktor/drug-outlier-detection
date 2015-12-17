@@ -1,6 +1,7 @@
 import numpy as np
 import functools as ft
-
+import operator as op
+import time
 
 class SingleSet:
     def __init__(self, filename, k):
@@ -103,12 +104,10 @@ class FusedSet:
         out = dict()
         for subject, lof_list in self.data.items():
             out[subject] = np.average(lof_list)
-        import operator
-        return sorted(out.items(), key=operator.itemgetter(1), reverse=True)
+        return sorted(out.items(), key=op.itemgetter(1), reverse=True)
 
 
 def main():
-    import time
     start = time.time()
     print("LOF calculation started...")
     fused = FusedSet()
