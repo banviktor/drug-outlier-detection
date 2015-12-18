@@ -3,6 +3,7 @@ import functools as ft
 import operator as op
 import time
 import matplotlib.pyplot as plt
+import os
 
 
 class SingleSet:
@@ -21,7 +22,8 @@ class SingleSet:
     @staticmethod
     def read_data(source):
         data_list = []
-        with open("data/" + source, "r") as f:
+        filename = os.path.join(os.path.dirname(__file__), 'data', source)
+        with open(filename, "r") as f:
             lines = f.readlines()
 
             # Determine the dimension of values.
