@@ -12,7 +12,7 @@ class SingleSet:
         self.data = SingleSet.read_data(filename)
         # Initialize distances matrix.
         self.distances = []
-        for i in range(0, len(self.data)):
+        for i in range(len(self.data)):
             self.distances.insert(i, [0.0]*len(self.data))
 
         # Fill the distance matrix.
@@ -117,12 +117,12 @@ class FusedSet:
         self.data = dict()
 
     def add_set(self, single_set):
-        for i in range(0, len(single_set.data)):
+        for i in range(len(single_set.data)):
             # Determine the drug's name.
             subject = single_set.data[i][0]
 
             # If there is no entry for the subject yet, initialize with an empty list.
-            if not self.data.__contains__(subject):
+            if subject not in self.data:
                 self.data[subject] = []
 
             # Append the drug's LOF.
