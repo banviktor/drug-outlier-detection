@@ -155,7 +155,7 @@ def main():
     print("  Aron Karolyi")
     print("  Viktor Ban")
     print("")
-    print("LOF calculation started...")
+    print("LOF calculation started. This can take a few minutes...")
     fused = FusedSet()
     fused.add_set(SingleSet("freq.ker", 25))
     fused.add_set(SingleSet("maccs.ker", 25))
